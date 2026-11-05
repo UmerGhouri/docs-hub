@@ -114,6 +114,26 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-223, DDT-520 | [Create Court Case flow fails with an unhandled fault](./ddt-223-create-court-case-flow-fault/README.md) | DDT-223: Done 2026-06-24. DDT-520: Live since 2026-08-10 |
 | DDT-225 | [CloudFiles flow moving native files to Google Drive](./ddt-225-cloudfiles-move-files-drive/README.md) | Live since 2026-06-24 (the flow was later retired under DDT-867) |
 | DDT-226, DDT-276, DDT-1030, DDT-1369 | [Adding a new sales rep to intake reports and dashboards](./ddt-226-add-rep-sales-reports/README.md) | DDT-226: Live since 2026-06-24. DDT-276: Done 2026-07-08. DDT-1030: Live since 2026-09-17. DDT-1369: Done 2026-10-20 |
+| DDT-230, DDT-258, DDT-499, DDT-629 | [Attorney signature image on generated documents](./ddt-230-attorney-signature-documents/README.md) | Live since 2026-08-04 |
+| DDT-231 | [Past-due text firing on voided invoices](./ddt-231-past-due-text-voided-invoices/README.md) | Live since 2026-06-25 |
+| DDT-232 | [New Credit Memo reason values](./ddt-232-credit-memo-reason-values/README.md) | Live since 2026-06-26 |
+| DDT-233, DDT-241 | [Document generation failing on client files](./ddt-233-document-generation-client-files/README.md) | Done 2026-06-30 |
+| DDT-234 | [SOS lead bell notifications not received](./ddt-234-sos-lead-bell-notifications/README.md) | Live since 2026-06-30 |
+| DDT-235, DDT-282, DDT-328 | [Printing emails from the shared inbox](./ddt-235-print-shared-inbox-emails/README.md) | Live since 2026-07-16 |
+| DDT-239 | [Locating a signed S-Sign representation agreement](./ddt-239-locate-signed-agreement/README.md) | Done 2026-06-30 |
+| DDT-240 | [Daily Docket error: no Apex action available](./ddt-240-docket-apex-action-missing/README.md) | Done 2026-06-30 |
+| DDT-243 | [Daily Docket not showing client phone and language](./ddt-243-docket-phone-language-missing/README.md) | Live since 2026-06-30 |
+| DDT-248 | [Matter Completion panel v2 with in-panel feedback](./ddt-248-matter-completion-panel-v2/README.md) | Live since 2026-06-30 |
+| DDT-250 | [PI expense amount rounding and invoice file field](./ddt-250-expense-amount-rounding/README.md) | Live since 2026-07-01 |
+| DDT-251, DDT-313 | [Signed representation agreements missing from generated documents folder](./ddt-251-signed-agreements-missing-folder/README.md) | Live since 2026-07-02 (DDT-251); DDT-313 closed 2026-07-14 |
+| DDT-253 | [Shared inbox attachments not appearing in the client's folder](./ddt-253-inbox-attachments-not-in-folder/README.md) | Done 2026-07-02 |
+| DDT-257, DDT-1165 | [Updating the courthouse on a record](./ddt-257-update-courthouse-record/README.md) | Done 2026-07-01 (DDT-257) and 2026-10-07 (DDT-1165) |
+| DDT-263 | [Compensation calculator on the Sales Comp Dashboard](./ddt-263-sales-comp-calculator/README.md) | Live since 2026-07-06 |
+| DDT-265 | [Test Verified checkbox on Opportunity](./ddt-265-test-verified-checkbox/README.md) | Done 2026-07-03 |
+| DDT-268 | [Mitigation letter generator](./ddt-268-mitigation-letter-generator/README.md) | Live since 2026-07-03 |
+| DDT-271 | [Dates of service on the medical damages Obtained prompt](./ddt-271-dates-of-service-obtained-prompt/README.md) | Live since 2026-08-24 |
+| DDT-272 | [Disposition report missing status for some cases](./ddt-272-disposition-report-missing-status/README.md) | Live since 2026-07-13 |
+| DDT-274 | [Refund report for the last 12 months](./ddt-274-refund-report-twelve-months/README.md) | Live since 2026-07-08 |
 | DDT-275, DDT-473, DDT-506, DDT-567, DDT-767, DDT-1328, DDT-1412 | [Merging duplicate leads, accounts and contacts](./ddt-275-merge-duplicate-leads-accounts/README.md) | Done 2026-10-26 (last of the seven; each was a one-off data fix in production) |
 | DDT-280 | [Liens report type and Financials tab access](./ddt-280-liens-report-type-access/README.md) | Live since 2026-07-27 |
 | DDT-285 | [Shared inbox Reply All missing recipients and wrong signature address](./ddt-285-inbox-reply-all-recipients/README.md) | Live since 2026-07-27 |
@@ -128,6 +148,12 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-296, DDT-327, DDT-995, DDT-1305, DDT-1500 | [Legal Growth Engine (Martindale-Avvo, Nolo) lead integration](./ddt-296-legal-growth-engine-leads/README.md) | Live since 2026-11-05 |
 | DDT-300 | [Read-only Court Appearances panel on Opportunity](./ddt-300-court-appearances-panel-opportunity/README.md) | Live since 2026-10-01 (merged to `main` 2026-07-10) |
 | DDT-302, DDT-303 | [Coverage panel Not Available status guard](./ddt-302-coverage-not-available-guard/README.md) | Live since 2026-07-10 |
+| DDT-306, DDT-1236 | [Dashboard quarter filter for past-period data](./ddt-306-dashboard-quarter-filter/README.md) | Live since 2026-10-08 |
+| DDT-307, DDT-802, DDT-916 | [Recovering data from archived records](./ddt-307-recover-archived-records/README.md) | Live since 2026-09-07 |
+| DDT-308, DDT-1346 | [Court case red flags reading the wrong data](./ddt-308-court-case-red-flags/README.md) | Live since 2026-07-14 |
+| DDT-309, DDT-1430 | [Adding a courthouse picklist value](./ddt-309-courthouse-picklist-values/README.md) | Live since 2026-10-26 |
+| DDT-312 | [Outbound lead and new Family Building practice area value](./ddt-312-family-building-practice-area/README.md) | Live since 2026-07-14 |
+| DDT-315 | [PI lead description not carried to the Matter on signing](./ddt-315-pi-description-not-carried/README.md) | Live since 2026-08-18 |
 | DDT-316 | [Merge Cases quick action to deduplicate opportunities](./ddt-316-merge-cases-quick-action/README.md) | Done 2026-07-13 |
 | DDT-317 | [Assign Lead chat button in case conversion](./ddt-317-assign-lead-chat-button/README.md) | Done 2026-07-13 |
 | DDT-319 | [Court Appearance result modal, path and panel enhancements](./ddt-319-court-appearance-result-modal/README.md) | Done 2026-07-13 |
@@ -135,6 +161,16 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-324 | [Card declines labeled as Issuer in the payment processor](./ddt-324-card-declines-labeled-issuer/README.md) | Done 2026-07-13 |
 | DDT-325, DDT-1230 | [Replies to resolved email threads not reopening or notifying](./ddt-325-replies-resolved-threads/README.md) | Live since 2026-10-05 |
 | DDT-351, DDT-1194, DDT-1488 | [Matter Current Stage drifting from the real stage](./ddt-351-stale-current-stage/README.md) | Live since 2026-11-02 |
+| DDT-352 | [Daily Docket attorney appearance toggle missing](./ddt-352-docket-attorney-appearance-toggle/README.md) | Live since 2026-07-16 |
+| DDT-353, DDT-593 | [Shared inbox threads not sorted newest first](./ddt-353-inbox-sort-newest-first/README.md) | Live since 2026-07-31 |
+| DDT-358 | [Did Not Hire cases report](./ddt-358-did-not-hire-report/README.md) | Live since 2026-07-17 |
+| DDT-360 | [Lead Triage missing Save button on the Case-Related Party tab](./ddt-360-lead-triage-save-button/README.md) | Done 2026-07-17 |
+| DDT-361, DDT-376, DDT-492 | [Lead owner change does not save](./ddt-361-lead-owner-change-reverts/README.md) | Live since 2026-07-22 |
+| DDT-366, DDT-731 | [Signed DocuSign files saved to the Drive client folder](./ddt-366-signed-docusign-files-drive/README.md) | Live since 2026-09-09 |
+| DDT-367 | [Shared inbox forwards drop the email body and attachments](./ddt-367-inbox-forward-drops-body/README.md) | Live since 2026-07-27 |
+| DDT-369, DDT-477 | [Auto-pay not charging and missed scheduled payments](./ddt-369-missed-autopay-july/README.md) | Done 2026-07-27 |
+| DDT-370 | [Converted opportunity not connected to the client account](./ddt-370-converted-opportunity-not-linked/README.md) | Done 2026-07-20 |
+| DDT-371 | [No BAIID RDP option on SOS Hearing Result](./ddt-371-sos-hearing-result-baiid/README.md) | Live since 2026-07-20 |
 | DDT-378, DDT-1469 | [Granting access to a report or dashboard](./ddt-378-report-dashboard-access/README.md) | Live since 2026-10-30 |
 | DDT-467, DDT-637, DDT-760, DDT-1495, DDT-1515 | [Updating email signatures and sender details](./ddt-467-email-signature-updates/README.md) | Live since 2026-11-05 (latest change) |
 | DDT-470, DDT-764, DDT-851, DDT-918, DDT-1001, DDT-1095, DDT-1103, DDT-1106, DDT-1228, DDT-1307, DDT-1321, DDT-1434, DDT-1470, DDT-1474, DDT-1502 | [Adding a citation type](./ddt-470-add-citation-type/README.md) | Live since 2026-07-21 (first request); latest addition live since 2026-11-05 |
@@ -158,3 +194,30 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-519 | [Operations Admin role on PI matters and default case manager](./ddt-519-pi-operations-admin-role/README.md) | Live since 2026-07-28 |
 | DDT-521 | [Assign to team member button on the injury email inbox](./ddt-521-injury-inbox-assign-button/README.md) | Live since 2026-07-28 (ticket closed 2026-07-29) |
 | DDT-523 | [Compliance Completed checkbox on the Court Appearance layout](./ddt-523-compliance-completed-checkbox/README.md) | Live since 2026-07-28 (ticket closed 2026-07-29) |
+| DDT-524, DDT-565 | [S-Docs generation fails with a null object error](./ddt-524-sdocs-null-object-error/README.md) | Live since 2026-07-28 |
+| DDT-525 | [Drive folder structure for new PI matters](./ddt-525-pi-drive-folder-structure/README.md) | Live since 2026-07-29 |
+| DDT-526, DDT-655 | [Lien negotiation status values and default](./ddt-526-lien-negotiation-status/README.md) | Live since 2026-08-11 |
+| DDT-527, DDT-740, DDT-1124 | [Med Pay payment tracking fields on Coverage](./ddt-527-med-pay-payment-tracking/README.md) | Live since 2026-09-28 |
+| DDT-528, DDT-625 | [Coverage master report and report type fields](./ddt-528-coverage-master-report/README.md) | Live since 2026-08-05 |
+| DDT-530 | [Stray image artifacts on the generated Cook County Appearance](./ddt-530-cook-appearance-stray-images/README.md) | Live since 2026-07-28 |
+| DDT-569 | [Export to Sheet on the PI Damages tab](./ddt-569-damages-export-to-sheet/README.md) | Live since 2026-08-18 |
+| DDT-576 | [Illinois lien reduction classification and totals](./ddt-576-illinois-lien-reductions/README.md) | Live since 2026-08-31 (classification and totals only; the cap, pro-rata and letter fields were held) |
+| DDT-582 | [CloudFiles integration moved to the Client Credentials flow](./ddt-582-cloudfiles-client-credentials/README.md) | Done 2026-07-30 |
+| DDT-588 | [PI companion matter linking and shared incident fields](./ddt-588-pi-companion-linking-audit/README.md) | Done 2026-08-24 (audit and recommendation; no change deployed under this ticket) |
+| DDT-589 | [Adding a recipient to SOS court appearance notices](./ddt-589-sos-court-notice-recipient/README.md) | Live since 2026-08-21 |
+| DDT-591 | [Email shows Delivered but never reached the recipient](./ddt-591-email-delivered-not-received/README.md) | Done 2026-08-03 |
+| DDT-624, DDT-1348, DDT-1471 | [User cannot see or open PI matters](./ddt-624-pi-matter-access/README.md) | Done 2026-10-29 |
+| DDT-627 | [Auto-BillPay fails: Customer Profile ID not found](./ddt-627-autobillpay-profile-not-found/README.md) | Done 2026-08-13 |
+| DDT-633 | [Insufficient access on cross-reference id when sending email](./ddt-633-email-cross-reference-access/README.md) | Done 2026-08-13 |
+| DDT-659 | [Medical Chronology expense type](./ddt-659-expense-type-medical-chronology/README.md) | Live since 2026-08-11 |
+| DDT-662 | [New medical damages save silently fails](./ddt-662-medical-damages-save-fails/README.md) | Live since 2026-08-07 |
+| DDT-663 | [Oversized emails fail silently but log as Sent](./ddt-663-oversized-emails-fail-silently/README.md) | Live since 2026-08-12 |
+| DDT-664 | [All leads show today's date for Last Outreach](./ddt-664-last-outreach-date-all-today/README.md) | Live since 2026-08-24 |
+| DDT-677, DDT-1381 | [Supporting Docs field rename and values](./ddt-677-supporting-docs-field/README.md) | Live since 2026-10-21 |
+| DDT-678, DDT-1278 | [Health insurance LOR fields and report](./ddt-678-health-insurance-lor-fields/README.md) | Live since 2026-10-09 (Coverage fields and claim line since 2026-09-08; report columns since 2026-10-09) |
+| DDT-680 | [Client Last Treatment Call not updating](./ddt-680-last-treatment-call-not-updating/README.md) | Live since 2026-08-12 |
+| DDT-702, DDT-716, DDT-903, DDT-1486 | [Saving a disposition hits governor limits](./ddt-702-disposition-save-limits/README.md) | Live since 2026-11-05 |
+| DDT-706 | [Turning off email-assigned bell notifications for a user](./ddt-706-disable-email-assignment-bell/README.md) | Live since 2026-08-13 |
+| DDT-711 | [Matter Type has no options on Send for Signature](./ddt-711-matter-type-no-options-signature/README.md) | Live since 2026-08-12 |
+| DDT-712 | [BCC field in the shared inbox composer](./ddt-712-inbox-bcc-field/README.md) | Live since 2026-08-13 |
+| DDT-713 | [Generated documents land in the case folder root after the Drive cutover](./ddt-713-generated-docs-folder-root/README.md) | Live since 2026-08-12 |

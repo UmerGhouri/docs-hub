@@ -11,5 +11,8 @@ Issues that span more than one system.
 | DDT-100 | [Slack message edits sync to Linear issues](./ddt-100-slack-edits-sync-linear/README.md) | Done 2026-06-03 |
 | DDT-153 | [Google Ads lead and conversion sync failing on a retired API version](./ddt-153-google-ads-api-version/README.md) | Live since 2026-06-11 |
 | DDT-180, DDT-181, DDT-182, DDT-183, DDT-184 | [Discovery Puller handoff: merges, TechShare and sandbox cost fixes](./ddt-180-discovery-puller-handoff/README.md) | Done 2026-06-26 |
+| DDT-255 | [Support bot auto-assigns IT tickets](./ddt-255-bot-auto-assign-it-tickets/README.md) | Live since 2026-07-01 |
+| DDT-260 | [Support bot adds a done reaction when the Linear ticket closes](./ddt-260-bot-done-reaction-close/README.md) | Done 2026-07-03 |
 | DDT-304, DDT-368, DDT-377, DDT-379, DDT-507, DDT-643, DDT-683, DDT-1034, DDT-1059, DDT-1089, DDT-1402 | [RingCentral calls not logging to Salesforce](./ddt-304-ringcentral-calls-not-logging/README.md) | Live since 2026-10-23 |
+| DDT-311 | [Inbound caller not auto-created as a lead](./ddt-311-inbound-caller-no-lead/README.md) | Done 2026-07-13 |
 | DDT-502 | [Prompt caching on Claude API calls](./ddt-502-claude-prompt-caching/README.md) | Live since 2026-09-30 |
