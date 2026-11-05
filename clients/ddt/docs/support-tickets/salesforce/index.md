@@ -166,6 +166,9 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-358 | [Did Not Hire cases report](./ddt-358-did-not-hire-report/README.md) | Live since 2026-07-17 |
 | DDT-360 | [Lead Triage missing Save button on the Case-Related Party tab](./ddt-360-lead-triage-save-button/README.md) | Done 2026-07-17 |
 | DDT-361, DDT-376, DDT-492 | [Lead owner change does not save](./ddt-361-lead-owner-change-reverts/README.md) | Live since 2026-07-22 |
+| DDT-362 | [Disposition amount dropped on save and Chatter double-post](./ddt-362-disposition-amount-dropped/README.md) | Live since 2026-07-16 |
+| DDT-363 | [Auto-completing Confirm MMI on move to Records Retrieval](./ddt-363-auto-complete-confirm-mmi/README.md) | Live since 2026-07-17 |
+| DDT-364, DDT-365 | [Send for Signature from an existing client account](./ddt-364-send-signature-from-account/README.md) | Live since 2026-07-16 |
 | DDT-366, DDT-731 | [Signed DocuSign files saved to the Drive client folder](./ddt-366-signed-docusign-files-drive/README.md) | Live since 2026-09-09 |
 | DDT-367 | [Shared inbox forwards drop the email body and attachments](./ddt-367-inbox-forward-drops-body/README.md) | Live since 2026-07-27 |
 | DDT-369, DDT-477 | [Auto-pay not charging and missed scheduled payments](./ddt-369-missed-autopay-july/README.md) | Done 2026-07-27 |
@@ -206,18 +209,200 @@ Fixes and changes inside Salesforce: Apex, flows, LWC, fields, page layouts, per
 | DDT-588 | [PI companion matter linking and shared incident fields](./ddt-588-pi-companion-linking-audit/README.md) | Done 2026-08-24 (audit and recommendation; no change deployed under this ticket) |
 | DDT-589 | [Adding a recipient to SOS court appearance notices](./ddt-589-sos-court-notice-recipient/README.md) | Live since 2026-08-21 |
 | DDT-591 | [Email shows Delivered but never reached the recipient](./ddt-591-email-delivered-not-received/README.md) | Done 2026-08-03 |
+| DDT-592 | [Shared inbox Team Notes rendering as question marks](./ddt-592-inbox-team-notes-question-marks/README.md) | Live since 2026-08-03 |
+| DDT-597 | [Native Google Drive integration replacing CloudFiles](./ddt-597-native-google-drive-integration/README.md) | Live since 2026-07-31 |
+| DDT-605 | [Shared inbox replies missing prior thread history](./ddt-605-inbox-replies-missing-history/README.md) | Live since 2026-08-04 |
+| DDT-612 | [Turning off field history on the webhook replay buffer](./ddt-612-webhook-buffer-history-tracking/README.md) | Live since 2026-08-11 |
+| DDT-613 | [Merging stacked pull requests bottom up](./ddt-613-merge-stacked-prs-bottom-up/README.md) | Done 2026-08-21 |
 | DDT-624, DDT-1348, DDT-1471 | [User cannot see or open PI matters](./ddt-624-pi-matter-access/README.md) | Done 2026-10-29 |
 | DDT-627 | [Auto-BillPay fails: Customer Profile ID not found](./ddt-627-autobillpay-profile-not-found/README.md) | Done 2026-08-13 |
 | DDT-633 | [Insufficient access on cross-reference id when sending email](./ddt-633-email-cross-reference-access/README.md) | Done 2026-08-13 |
+| DDT-640, DDT-753, DDT-830 | [Will County cases not auto-assigning attorney and case manager](./ddt-640-will-county-auto-assign/README.md) | Live since 2026-08-25 |
+| DDT-644 | [Some inbound HTML emails render blank](./ddt-644-inbound-html-email-blank/README.md) | Live since 2026-08-07 |
+| DDT-645 | [Disabling a reporting snapshot in sandbox](./ddt-645-disable-snapshot-sandbox/README.md) | Done 2026-08-07 (sandbox only) |
+| DDT-651, DDT-682 | [Matter Completion and Incident fields not syncing](./ddt-651-incident-matter-sync/README.md) | Live since 2026-09-14 |
+| DDT-652 | [Cannot upload into new Google Drive case folders](./ddt-652-drive-upload-new-folders/README.md) | Live since 2026-08-06 |
+| DDT-653 | [Zoom links site in the utility bar](./ddt-653-utility-bar-zoom-link/README.md) | Live since 2026-08-05 |
 | DDT-659 | [Medical Chronology expense type](./ddt-659-expense-type-medical-chronology/README.md) | Live since 2026-08-11 |
 | DDT-662 | [New medical damages save silently fails](./ddt-662-medical-damages-save-fails/README.md) | Live since 2026-08-07 |
 | DDT-663 | [Oversized emails fail silently but log as Sent](./ddt-663-oversized-emails-fail-silently/README.md) | Live since 2026-08-12 |
 | DDT-664 | [All leads show today's date for Last Outreach](./ddt-664-last-outreach-date-all-today/README.md) | Live since 2026-08-24 |
+| DDT-665 | [Rerouting Obtain Driving Abstract tasks to the SOS case manager](./ddt-665-reroute-driving-abstract-tasks/README.md) | Live since 2026-08-12 |
+| DDT-666 | [Date optional for Continued disposition on SOS hearings](./ddt-666-continued-disposition-date-optional/README.md) | Live since 2026-08-19 |
+| DDT-667, DDT-668, DDT-729 | [Linking a Google Drive folder to a matter or case](./ddt-667-link-drive-folder-matter/README.md) | Live since 2026-08-21 |
+| DDT-669 | [Prep Client Notes in the SOS section on Opportunity](./ddt-669-sos-prep-client-notes/README.md) | Live since 2026-08-10 |
+| DDT-670 | [SOS Team case queue](./ddt-670-sos-team-case-queue/README.md) | Live since 2026-08-07 |
+| DDT-671 | [SOS report shows the wrong stage](./ddt-671-sos-report-wrong-stage/README.md) | Live since 2026-08-07 |
+| DDT-672, DDT-989 | [Creating a vendor from the expense lookup](./ddt-672-create-vendor-from-lookup/README.md) | Live since 2026-09-10 |
+| DDT-674 | [Active Plan Builder checkbox blocks court case stage change](./ddt-674-active-plan-builder-checkbox/README.md) | Live since 2026-08-10 |
+| DDT-675, DDT-968 | [Card declined when saving a payment profile](./ddt-675-card-save-declined/README.md) | Done 2026-09-14 |
 | DDT-677, DDT-1381 | [Supporting Docs field rename and values](./ddt-677-supporting-docs-field/README.md) | Live since 2026-10-21 |
 | DDT-678, DDT-1278 | [Health insurance LOR fields and report](./ddt-678-health-insurance-lor-fields/README.md) | Live since 2026-10-09 (Coverage fields and claim line since 2026-09-08; report columns since 2026-10-09) |
 | DDT-680 | [Client Last Treatment Call not updating](./ddt-680-last-treatment-call-not-updating/README.md) | Live since 2026-08-12 |
+| DDT-681 | [SOS win rate report formula](./ddt-681-sos-win-rate-formula/README.md) | Live since 2026-08-11 |
+| DDT-684 | [PIF report empty for one courthouse](./ddt-684-pif-report-empty-courthouse/README.md) | Done 2026-08-13 |
+| DDT-686 | [Matter Standing field deployed to sandbox for Torq sync](./ddt-686-matter-standing-field-sandbox/README.md) | Done 2026-08-10 (sandbox only) |
+| DDT-687 | [Matter status changes create duplicate Drive folders](./ddt-687-duplicate-drive-folders-status/README.md) | Done 2026-08-17. Data repaired in production that day; the code fix is in production by 2026-09-30 at the latest (see section 7). |
+| DDT-688 | [Payment page failing to load](./ddt-688-payment-page-fails-sandbox/README.md) | Done 2026-08-17 |
+| DDT-690 | [Lien holder converted from text to an Account lookup](./ddt-690-lien-holder-account-lookup/README.md) | Live since 2026-09-14 |
+| DDT-693 | [Drive files not visible in the Salesforce mobile apps](./ddt-693-drive-files-mobile-apps/README.md) | Done 2026-08-17 |
+| DDT-695 | [Editing a provider contact name without edit permission](./ddt-695-contact-name-edit-permission/README.md) | Done 2026-08-12 |
+| DDT-698, DDT-949 | [Will County document templates: ARDC, county and checkboxes](./ddt-698-will-county-templates/README.md) | Live since 2026-09-08 |
+| DDT-699 | [Court appearance missing from the Daily Docket](./ddt-699-appearance-missing-daily-docket/README.md) | Done 2026-08-13 |
+| DDT-701 | [Discovery Puller folder picker shows undefined root](./ddt-701-discovery-folder-picker-undefined/README.md) | Live since 2026-08-17 |
 | DDT-702, DDT-716, DDT-903, DDT-1486 | [Saving a disposition hits governor limits](./ddt-702-disposition-save-limits/README.md) | Live since 2026-11-05 |
 | DDT-706 | [Turning off email-assigned bell notifications for a user](./ddt-706-disable-email-assignment-bell/README.md) | Live since 2026-08-13 |
+| DDT-707, DDT-850 | [SOS representation agreement fee language](./ddt-707-sos-agreement-fee-language/README.md) | Live since 2026-08-31 (DDT-707 live since 2026-08-12) |
+| DDT-708, DDT-728, DDT-1382 | [Courthouse set automatically from arresting agency](./ddt-708-courthouse-from-arresting-agency/README.md) | Live since 2026-10-21 (DDT-708 since 2026-08-12, DDT-728 since 2026-08-17) |
 | DDT-711 | [Matter Type has no options on Send for Signature](./ddt-711-matter-type-no-options-signature/README.md) | Live since 2026-08-12 |
 | DDT-712 | [BCC field in the shared inbox composer](./ddt-712-inbox-bcc-field/README.md) | Live since 2026-08-13 |
 | DDT-713 | [Generated documents land in the case folder root after the Drive cutover](./ddt-713-generated-docs-folder-root/README.md) | Live since 2026-08-12 |
+| DDT-719, DDT-874 | [Uploaded files land in the wrong Drive folder](./ddt-719-upload-wrong-subfolder/README.md) | Live since 2026-09-02 |
+| DDT-720, DDT-1259, DDT-1273, DDT-1276 | [Email From address options](./ddt-720-email-from-address-options/README.md) | Live since 2026-10-12 |
+| DDT-722, DDT-726 | [CI checks that cannot fail and review gate holes](./ddt-722-ci-checks-that-cannot-fail/README.md) | Done 2026-08-20 (DDT-722 merged 2026-08-17, DDT-726 merged 2026-08-20). Nothing deploys to Salesforce. |
+| DDT-723, DDT-1224 | [SOS RDP expiry alert and its failing test](./ddt-723-sos-rdp-expiry-alert/README.md) | Live since 2026-09-29 (DDT-723). Test fix DDT-1224 deployed, done 2026-10-06. |
+| DDT-724 | [Damages treatment date shows one day early](./ddt-724-damages-date-off-by-one/README.md) | Done 2026-08-13 |
+| DDT-725, DDT-751 | [Notice of Filing template placeholder and blank space](./ddt-725-notice-of-filing-blank-space/README.md) | Done 2026-08-18 (DDT-725 fixed 2026-08-13; DDT-751 closed 2026-08-18) |
+| DDT-730 | [Phone Calls widget creates duplicate records](./ddt-730-phone-calls-widget-duplicates/README.md) | Done 2026-08-17 |
+| DDT-733 | [Cannot select an SSS Length value on Opportunity](./ddt-733-sss-length-picklist/README.md) | Done 2026-08-17 (reporter confirmed resolved 2026-08-13) |
+| DDT-735, DDT-1309 | [Calendly scheduling host and meeting options](./ddt-735-calendly-host-options/README.md) | Live since 2026-08-17 (DDT-735); DDT-1309 live since 2026-10-14 |
+| DDT-736 | [Case Management Discovery panel List index out of bounds error](./ddt-736-discovery-panel-list-index/README.md) | Live since 2026-08-17 |
+| DDT-737 | [Blueback task completion not syncing to Stage Tasks](./ddt-737-blueback-completion-stage-tasks/README.md) | Live since 2026-08-18 |
+| DDT-739 | [Remaining Days formula for SCT clock reporting](./ddt-739-sct-clock-remaining-days/README.md) | Live since 2026-08-17 |
+| DDT-744 | [Fee Per Court Date agreement missing Send for Signature](./ddt-744-fee-per-court-date-signature/README.md) | Done 2026-08-17 |
+| DDT-750, DDT-771 | [Adding a Court Action picklist value](./ddt-750-court-action-picklist/README.md) | Live since 2026-08-19 |
+| DDT-752 | [Calls in Activity but missing from the new Call Log](./ddt-752-calls-missing-new-call-log/README.md) | Live since 2026-08-19 |
+| DDT-758 | [Removing an attorney from the Outbound Lead list](./ddt-758-remove-attorney-outbound-list/README.md) | Done 2026-08-18 |
+| DDT-763 | [Treatment call AI summary mislabels staff as the client](./ddt-763-treatment-summary-speaker-labels/README.md) | Done 2026-10-01 |
+| DDT-768 | [DocuSign signed but lead still shows awaiting signature](./ddt-768-docusign-signed-lead-awaiting/README.md) | Live since 2026-08-19 |
+| DDT-773, DDT-892, DDT-1092, DDT-1121 | [Staff cannot move or delete Drive files](./ddt-773-drive-move-delete-files/README.md) | Live since 2026-10-05 |
+| DDT-775 | [Expense invoice attachments not syncing to Drive](./ddt-775-expense-attachments-drive-sync/README.md) | Live since 2026-08-21 |
+| DDT-777 | [Could not create provider in New Medical Damages](./ddt-777-medical-damages-provider-error/README.md) | Live since 2026-08-20 |
+| DDT-778 | [Error opening a lead from an email link](./ddt-778-lead-email-link-access-error/README.md) | Done 2026-08-21 |
+| DDT-779 | [Save All attachments button disabled on email](./ddt-779-save-all-attachments-disabled/README.md) | Done 2026-08-21 |
+| DDT-780 | [Settlement recovery edits blocked by the deposit-date guard](./ddt-780-settlement-recovery-deposit-guard/README.md) | Done 2026-08-20 |
+| DDT-782, DDT-984, DDT-1176, DDT-1283, DDT-1329 | [PI stage tasks not generating](./ddt-782-stage-tasks-not-generating/README.md) | Done 2026-10-21 |
+| DDT-785 | [PI Blueback tasks report for retained matters](./ddt-785-pi-blueback-tasks-report/README.md) | Live since 2026-08-21 |
+| DDT-803 | [Shared inbox filter by team member with counts](./ddt-803-inbox-filter-by-member/README.md) | Live since 2026-09-10 |
+| DDT-805 | [Default case manager on PI matters](./ddt-805-pi-default-case-manager/README.md) | Done 2026-08-25 |
+| DDT-807, DDT-1252 | [Case amount and invoice totals out of sync](./ddt-807-dollar-fields-tie-out/README.md) | Live since 2026-10-23 |
+| DDT-837, DDT-927, DDT-956 | [Correcting the Hired date on an opportunity](./ddt-837-correct-hired-date/README.md) | Done 2026-09-09 (last of the three) |
+| DDT-839 | [Installing the updated Heymarket package](./ddt-839-heymarket-package-update/README.md) | Live since 2026-08-26 |
+| DDT-844 | [Email attachments convert from PDF to HTML](./ddt-844-attachments-pdf-to-html/README.md) | Done 2026-09-01 |
+| DDT-846, DDT-990 | [Retiring Marketing Cloud packages and sync flows](./ddt-846-retire-marketing-cloud/README.md) | Live since 2026-09-15 (uninstall 2026-08-28, sync flows deactivated 2026-09-15) |
+| DDT-848 | [Authorize.Net payment fails with an XML schema error](./ddt-848-authorize-net-xml-schema/README.md) | Done 2026-08-28 |
+| DDT-852 | [PU Tasks list view excludes disengaged matters](./ddt-852-pu-tasks-exclude-disengaged/README.md) | Live since 2026-08-28 |
+| DDT-853, DDT-920 | [Stage tasks open before their stage](./ddt-853-stage-tasks-fire-early/README.md) | Done 2026-08-27 (DDT-853); live since 2026-09-03 (DDT-920) |
+| DDT-854, DDT-988, DDT-1374 | [Chatter mention and reply notifications not received](./ddt-854-chatter-notifications-missing/README.md) | Live since 2026-09-10 |
+| DDT-857 | [Email task layout cleanup on PI matters](./ddt-857-pi-email-task-layout/README.md) | Live since 2026-08-28 |
+| DDT-860 | [Comment thread on PI Blueback tasks](./ddt-860-blueback-task-comments/README.md) | Live since 2026-09-29 |
+| DDT-861 | [HV Intake Sales report excludes low-value cases](./ddt-861-hv-intake-report-exclude-lv/README.md) | Live since 2026-08-28 |
+| DDT-881 | ["The post was deleted" error after task creation](./ddt-881-post-deleted-error-task/README.md) | Live since 2026-09-01 |
+| DDT-888 | [Team meeting calendar notifications not received](./ddt-888-team-meeting-notifications/README.md) | Done 2026-09-03 |
+| DDT-889, DDT-1265 | [Marking a signed representation agreement as received](./ddt-889-signed-agreement-received/README.md) | Live since 2026-09-14 |
+| DDT-891, DDT-971 | [Scheduled installments not attempted: auto-pay outage](./ddt-891-autopay-outage-scheduler/README.md) | Live since 2026-09-09 (DDT-891 closed 2026-09-15) |
+| DDT-913 | [ACH authorization form added to the PI DocuSign library](./ddt-913-ach-form-docusign-library/README.md) | Done 2026-09-15 |
+| DDT-914 | [Hiding Not Needed records on PI Damages](./ddt-914-damages-hide-not-needed/README.md) | Live since 2026-09-03 |
+| DDT-919, DDT-970 | [Email threading breaks on long or mixed chains](./ddt-919-email-threading-breaks/README.md) | Live since 2026-09-07 (DDT-919) and 2026-09-14 (DDT-970) |
+| DDT-925 | [Slack link previews no longer show client and matter names](./ddt-925-slack-link-previews-names/README.md) | Done 2026-09-07 (no org change; affected one user's Slack app) |
+| DDT-928 | [Review Request button on the PI matter page](./ddt-928-pi-review-request-button/README.md) | Live since 2026-09-22 (ticket marked done 2026-09-21) |
+| DDT-930 | [Discovery Puller access in the CMT inbox](./ddt-930-discovery-puller-inbox-access/README.md) | Live since 2026-09-04 |
+| DDT-932, DDT-1052 | [Documenting the PI Blueback task list and assignees](./ddt-932-pi-blueback-task-list/README.md) | Done 2026-09-23 |
+| DDT-933, DDT-1051 | [Adding Pediatrician to provider picklists](./ddt-933-pediatrician-picklist-value/README.md) | Live since 2026-09-07 |
+| DDT-935, DDT-1191, DDT-1192, DDT-1193 | [PI cases in sales compensation and the dashboard rebuild](./ddt-935-pi-sales-comp/README.md) | Live since 2026-10-22 |
+| DDT-940 | [Immigration consultation popup reappears after No](./ddt-940-immigration-popup-reappears/README.md) | Live since 2026-09-07 |
+| DDT-943 | [Date of Arrest on the intake screens](./ddt-943-date-of-arrest-intake/README.md) | Live since 2026-09-16 |
+| DDT-944 | [Report of accounts with chargeback notes](./ddt-944-chargeback-notes-report/README.md) | Done 2026-09-11 |
+| DDT-953, DDT-1195, DDT-1431, DDT-1475 | [Removing a saved card from a payment profile](./ddt-953-remove-saved-card/README.md) | Done 2026-10-30 |
+| DDT-957 | [Calendly booking allowed on a PTO day](./ddt-957-calendly-pto-not-blocking/README.md) | Done 2026-09-09 |
+| DDT-958, DDT-1019 | [Removing duplicate or mistaken files from a record](./ddt-958-remove-files-from-record/README.md) | Done 2026-09-16 |
+| DDT-972 | [Prompt to create a court event after disposition on motions](./ddt-972-motion-disposition-court-event/README.md) | Live since 2026-09-24 |
+| DDT-973 | [UTM fields on Lead](./ddt-973-lead-utm-fields/README.md) | Live since 2026-09-14 |
+| DDT-974, DDT-975, DDT-976, DDT-977, DDT-978, DDT-979, DDT-980, DDT-981, DDT-1499 | [Torq Gameplan integration](./ddt-974-torq-gameplan-integration/README.md) | Live since 2026-09-14 (DDT-1499 is sandbox only, done 2026-11-04) |
+| DDT-983, DDT-1405 | [Notes fields on medical damages](./ddt-983-damages-notes-fields/README.md) | Live since 2026-10-28 (DDT-983 live since 2026-09-21) |
+| DDT-985, DDT-1264 | [Saving email attachments to a Drive subfolder](./ddt-985-email-save-drive-subfolder/README.md) | Live since 2026-10-09 (DDT-985 live since 2026-10-06, DDT-1264 since 2026-10-09) |
+| DDT-987 | [Hired credit not applied to the intake rep](./ddt-987-hired-credit-not-applied/README.md) | Done 2026-09-11 |
+| DDT-993 | [Medical provider contact info in department sections](./ddt-993-provider-contact-departments/README.md) | Live since 2026-09-30 |
+| DDT-994 | [Late fee not added to overdue installments](./ddt-994-late-fee-not-added/README.md) | Done 2026-09-15 |
+| DDT-1002, DDT-1024 | [Medical records request modes 2 and 3](./ddt-1002-medical-records-request-modes/README.md) | Live since 2026-09-24 (DDT-1002 live since 2026-09-15, DDT-1024 since 2026-09-24) |
+| DDT-1004, DDT-1510 | [Consult call scoring coaching card and dashboard](./ddt-1004-consult-call-scoring/README.md) | Live since 2026-11-05 (DDT-1004 live since 2026-09-14, DDT-1510 since 2026-11-05) |
+| DDT-1005 | [Validation script ran only a fraction of the requested tests](./ddt-1005-post-validation-partial-tests/README.md) | Done 2026-09-14 |
+| DDT-1006 | [Flexipages carrying production-only components](./ddt-1006-flexipages-prod-only-components/README.md) | Done 2026-09-14 |
+| DDT-1008 | [Delete permission on PI expenses for named users](./ddt-1008-pi-expense-delete-permission/README.md) | Live since 2026-09-15 |
+| DDT-1009 | [Video analysis missing after completion](./ddt-1009-video-analysis-missing/README.md) | Done 2026-09-16 |
+| DDT-1011 | [Damages name includes service date, breaking MRR grouping](./ddt-1011-damages-name-service-date/README.md) | Done 2026-09-15 |
+| DDT-1017 | [Phone call logs and notes missing on a matter](./ddt-1017-call-logs-notes-missing-matter/README.md) | Done 2026-09-16 |
+| DDT-1018, DDT-1091 | [Claim Lead in Slack blocked by the Salesforce app](./ddt-1018-slack-app-claim-lead-blocked/README.md) | Done 2026-09-23 |
+| DDT-1043 | [Late fee AR report by month](./ddt-1043-late-fee-ar-report/README.md) | Live since 2026-09-21 |
+| DDT-1047 | [Calls report undercounting a rep's calls](./ddt-1047-calls-report-undercount/README.md) | Done 2026-09-21 |
+| DDT-1076 | [Immigration consultation email sent as a PDF attachment](./ddt-1076-immigration-email-pdf/README.md) | Done 2026-09-22 |
+| DDT-1088 | [Saved matter note missing the next day](./ddt-1088-matter-note-disappeared/README.md) | Live since 2026-09-23 |
+| DDT-1090 | [Damages file upload not syncing to the Medical Records folder](./ddt-1090-damages-upload-drive-sync/README.md) | Live since 2026-09-23 |
+| DDT-1097 | [Schedule Calendly Meeting flow shows Page doesn't exist](./ddt-1097-calendly-flow-page-missing/README.md) | Live since 2026-10-02 |
+| DDT-1098 | [Hearing Completed asks for a next court date that does not exist](./ddt-1098-hearing-completed-next-date/README.md) | Live since 2026-09-23 |
+| DDT-1102 | [Clients receiving DocuSign void notifications](./ddt-1102-docusign-void-notifications/README.md) | Live since 2026-09-24 |
+| DDT-1104, DDT-1503 | [Adding a user to a scheduled report email](./ddt-1104-scheduled-email-subscription/README.md) | Live since 2026-11-04 (DDT-1104 done 2026-09-24) |
+| DDT-1105 | [Removing Verbal from Limits Confirmation](./ddt-1105-remove-verbal-limits/README.md) | Live since 2026-09-24 |
+| DDT-1107 | [Report spam button in the shared inbox](./ddt-1107-inbox-report-spam/README.md) | Live since 2026-09-28 |
+| DDT-1111 | [Lead incorrectly marked converted blocks a new conversion](./ddt-1111-lead-wrongly-converted/README.md) | Done 2026-09-25 |
+| DDT-1112, DDT-1162 | [Report types in git out of step with production](./ddt-1112-report-types-drift/README.md) | Done 2026-10-02 (git and tooling only; nothing deployed to production) |
+| DDT-1113 | [Record-type deploys reset compact layouts](./ddt-1113-record-type-compact-layouts/README.md) | Done 2026-09-25 (CI guard and deploy policy; nothing deployed to Salesforce) |
+| DDT-1115 | [Outstanding MRR reports by age bucket](./ddt-1115-mrr-age-buckets/README.md) | Live since 2026-09-30 |
+| DDT-1116 | [Deleting a demand logged on the wrong matter](./ddt-1116-delete-misfiled-demand/README.md) | Done 2026-09-25 |
+| DDT-1118 | [Reduction sub-types under the non-moving violation disposition](./ddt-1118-non-moving-reduction-dispositions/README.md) | Live since 2026-09-29 |
+| DDT-1122 | [Tab character hiding clients from the immigration flag](./ddt-1122-immigration-flag-tab-character/README.md) | Live since 2026-09-30 |
+| DDT-1123 | [E-signature request email header logo](./ddt-1123-esignature-email-logo/README.md) | Live since 2026-09-29 |
+| DDT-1125 | [Case Manager and Legal Assistant columns on the task list view](./ddt-1125-task-list-cm-la-columns/README.md) | Live since 2026-09-28 |
+| DDT-1126, DDT-1281 | [PI team task reports](./ddt-1126-pi-task-reports/README.md) | Live since 2026-10-13 |
+| DDT-1128 | [Payment page not loading](./ddt-1128-payment-page-not-loading/README.md) | Done 2026-09-28 |
+| DDT-1142, DDT-1255, DDT-1274, DDT-1285, DDT-1379, DDT-1384, DDT-1462 | [How They Found Us panel, referral sources and referrers](./ddt-1142-how-they-found-us/README.md) | Live; tickets closed between 2026-09-28 and 2026-11-05 (dates per ticket in section 2) |
+| DDT-1143 | [Assigned email opens the whole thread](./ddt-1143-assigned-email-opens-thread/README.md) | Live since 2026-10-01 |
+| DDT-1144 | [Discovery Puller posts tag the case manager and attorney](./ddt-1144-discovery-post-tags/README.md) | Live since 2026-10-01 |
+| DDT-1145 | [Skipping auto-created Drive subfolders for SOS cases](./ddt-1145-skip-drive-subfolders-sos/README.md) | Live since 2026-09-30 |
+| DDT-1146 | [Root-only filter in the Drive files panel](./ddt-1146-drive-root-only-filter/README.md) | Live since 2026-10-01 |
+| DDT-1147, DDT-1433 | [LA Sales Pipeline of Potentials report access](./ddt-1147-la-sales-pipeline-report/README.md) | Live since 2026-09-29 (DDT-1147) and 2026-10-30 (DDT-1433) |
+| DDT-1148 | [Suppressing the empty disposition letter warning for police turn-in](./ddt-1148-police-turn-in-dispo-warning/README.md) | Live since 2026-09-30 |
+| DDT-1155 | [Blueback tasks not posting to Chatter on older matters](./ddt-1155-blueback-chatter-older-matters/README.md) | Done 2026-09-30 (closed as a duplicate of DDT-860) |
+| DDT-1157 | [Credit card authorization form signer name](./ddt-1157-cc-authorization-signer/README.md) | Done 2026-10-01 |
+| DDT-1164 | [Updating a user's title](./ddt-1164-user-title-update/README.md) | Live since 2026-10-01 |
+| DDT-1179 | [Lead Triage Existing Client fails: no call log found](./ddt-1179-lead-triage-no-call-log/README.md) | Live since 2026-10-02 |
+| DDT-1189 | [Cadence enrollment flow that cannot fire](./ddt-1189-cadence-enrollment-flow/README.md) | Live since 2026-10-05 |
+| DDT-1196 | [Linking a user to the firm Google account for Drive](./ddt-1196-link-user-google-account/README.md) | Live since 2026-10-06 |
+| DDT-1223 | [Pull Discovery button missing on inbox email](./ddt-1223-pull-discovery-button-missing/README.md) | Done 2026-10-05 |
+| DDT-1238 | [Demand phase task assignment](./ddt-1238-demand-phase-task-assignment/README.md) | Live since 2026-10-06 |
+| DDT-1261 | [Demand Tracker negotiation amounts and recoveries](./ddt-1261-settlement-negotiation-recovery/README.md) | Live since 2026-10-08 |
+| DDT-1277 | [Coverage image uploads and Medicare relabeling](./ddt-1277-coverage-image-uploads-medicare/README.md) | Live since 2026-10-16 |
+| DDT-1280 | [SOS informal hearing tasks assigned to the wrong user](./ddt-1280-sos-tasks-wrong-user/README.md) | Live since 2026-10-21 |
+| DDT-1284, DDT-1287 | [Attorney Approves the Matter task](./ddt-1284-attorney-approves-matter-task/README.md) | Live since 2026-10-12 |
+| DDT-1297 | [Matter Days in Inventory and stage close-out](./ddt-1297-days-in-inventory/README.md) | Live since 2026-10-26 |
+| DDT-1304 | [Suppressing countersign reminders for test records](./ddt-1304-suppress-test-record-reminders/README.md) | Done 2026-10-13 |
+| DDT-1310 | [Correcting a client's last name](./ddt-1310-correct-client-last-name/README.md) | Done 2026-10-13 |
+| DDT-1319, DDT-1364 | [Encrypted SSN field and full-SSN access](./ddt-1319-encrypted-ssn-field/README.md) | Live since 2026-10-13 (DDT-1319); access change live since 2026-10-23 (DDT-1364) |
+| DDT-1320 | [Email reply and forward buttons missing, no case link](./ddt-1320-email-reply-buttons-missing/README.md) | Done 2026-10-13 |
+| DDT-1322 | [Affidavit says Plaintiff instead of Defendant](./ddt-1322-affidavit-plaintiff-wording/README.md) | Live since 2026-10-13 |
+| DDT-1323 | [Updating a user's RingCentral fallback extension](./ddt-1323-update-fallback-extension/README.md) | Live since 2026-10-20 |
+| DDT-1324 | [Google Calendar reminder sent to the wrong attorney](./ddt-1324-calendar-reminder-wrong-attorney/README.md) | Live since 2026-10-21 |
+| DDT-1333 | [Auto-flagging a problem client from the credit memo reason](./ddt-1333-problem-client-credit-memo/README.md) | Live since 2026-10-15 |
+| DDT-1334 | [Registering a phone number for lead creation](./ddt-1334-register-number-lead-creation/README.md) | Live since 2026-10-20 |
+| DDT-1341 | [LOR Acknowledged task assigned to the wrong user](./ddt-1341-lor-task-wrong-assignee/README.md) | Live since 2026-10-21 |
+| DDT-1343 | [Removing client data from metadata and code](./ddt-1343-remove-client-data-metadata/README.md) | Live since 2026-10-16 |
+| DDT-1351 | [Collections welcome call tracking](./ddt-1351-collections-welcome-call/README.md) | Live since 2026-10-26 |
+| DDT-1365 | [Court appearances duplicated on Google Calendar](./ddt-1365-court-calendar-duplicates/README.md) | Live since 2026-10-21 |
+| DDT-1366 | [Per-user default view in the email inbox](./ddt-1366-inbox-default-view/README.md) | Live since 2026-10-23 |
+| DDT-1367 | [SSS start and end dates not populating](./ddt-1367-sss-dates-not-populating/README.md) | Live since 2026-10-21 |
+| DDT-1376 | [Hired Closed Cases card missing court dates](./ddt-1376-closed-cases-court-date-card/README.md) | Live since 2026-10-20 |
+| DDT-1383 | [Disengaged reason and date shown only when disengaged](./ddt-1383-disengaged-fields-visibility/README.md) | Live since 2026-10-21 |
+| DDT-1389 | [Attorney disposition note missing from Notes](./ddt-1389-attorney-dispo-note-missing/README.md) | Done 2026-10-26 |
+| DDT-1404 | [Rep unable to finish processing a client payment](./ddt-1404-payment-processing-blocked/README.md) | Done 2026-10-26 |
+| DDT-1411 | [Activities and New Task on Damages records](./ddt-1411-damages-activities-tasks/README.md) | Live since 2026-10-26 |
+| DDT-1429 | [Broken link in the Cook County payment instructions template](./ddt-1429-payment-instructions-broken-link/README.md) | Done 2026-10-29 |
+| DDT-1463 | [PI inbox spam folder not synced](./ddt-1463-pi-inbox-spam-not-synced/README.md) | Done 2026-10-29 |
+| DDT-1465 | [SOS inbox search does not return sent emails](./ddt-1465-sos-inbox-search-sent/README.md) | Live since 2026-10-29 |
+| DDT-1478 | [Next Court Date blank on Opportunity](./ddt-1478-next-court-date-blank/README.md) | Live since 2026-10-30 |
+| DDT-1484 | [Mass-updating the legal assistant on matters](./ddt-1484-mass-update-legal-assistant/README.md) | Live since 2026-11-03 |
+| DDT-1487 | [SOS case path stages matching Defense](./ddt-1487-sos-path-stages/README.md) | Live since 2026-11-03 |
+| DDT-1496 | [Approved time off missing from the Daily Docket and Calendar](./ddt-1496-time-off-not-on-docket/README.md) | Done 2026-11-04 |
+| DDT-1504 | [Disposition save fails: Dismissed not an allowed value](./ddt-1504-disposition-dismissed-picklist/README.md) | Live since 2026-11-05 |
+| DDT-1505 | [Sorry to interrupt error opening case records](./ddt-1505-sorry-to-interrupt-case/README.md) | Done 2026-11-04 |
+| DDT-1506 | [Reports and opportunity page failing to load](./ddt-1506-reports-page-load-error/README.md) | Done 2026-11-04 |
+| DDT-1513 | [Settlement statement footer address and website](./ddt-1513-settlement-footer-address/README.md) | Live since 2026-11-05 |

@@ -16,3 +16,8 @@ Issues that span more than one system.
 | DDT-304, DDT-368, DDT-377, DDT-379, DDT-507, DDT-643, DDT-683, DDT-1034, DDT-1059, DDT-1089, DDT-1402 | [RingCentral calls not logging to Salesforce](./ddt-304-ringcentral-calls-not-logging/README.md) | Live since 2026-10-23 |
 | DDT-311 | [Inbound caller not auto-created as a lead](./ddt-311-inbound-caller-no-lead/README.md) | Done 2026-07-13 |
 | DDT-502 | [Prompt caching on Claude API calls](./ddt-502-claude-prompt-caching/README.md) | Live since 2026-09-30 |
+| DDT-1087, DDT-1232, DDT-1253, DDT-1254, DDT-1263 | [Logins break after a staff email address change](./ddt-1087-logins-after-email-change/README.md) | Done 2026-10-08 |
+| DDT-1137 | [Discovery Puller has no retry or timeout on network calls](./ddt-1137-discovery-puller-retry-timeout/README.md) | Live since 2026-09-28 |
+| DDT-1138, DDT-1140 | [Discovery Puller long pulls exceed the sandbox window](./ddt-1138-discovery-sandbox-window/README.md) | Live since 2026-09-28 |
+| DDT-1139 | [Discovery Puller manifest truncates on large pulls](./ddt-1139-discovery-manifest-truncation/README.md) | Done 2026-09-28 |
+| DDT-1375 | [Disqualified call re-alerted as a new lead](./ddt-1375-disqualified-call-realerted/README.md) | Live since 2026-10-21 |
