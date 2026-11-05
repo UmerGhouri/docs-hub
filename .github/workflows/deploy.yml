@@ -106,7 +106,9 @@ jobs:
   # ===========================================================================================
   deploy:
     needs: build
-    if: vars.PUBLISH_TARGET == 'github-pages'
+    # Pull requests build and verify only. The github-pages environment accepts deploys from main
+    # alone, so a PR deploy can only fail, and it would mark every PR red.
+    if: vars.PUBLISH_TARGET == 'github-pages' && github.event_name != 'pull_request'
     runs-on: ubuntu-latest
 
     # On this job only, not at the top of the file: the build job has no business holding write
