@@ -1,11 +1,17 @@
 # Support tickets
 
-One-off fixes and requests that don't belong to a project. Same shape as a project: one folder per ticket, each with a `README.md` (and an optional `images/` folder).
+Resolved DDT tickets that don't belong to a project, filed by the system they touch. Each page covers one problem or feature; where several tickets were the same issue, they share one page and the page lists them all.
 
-## Issues
+Open a system below, or use the sidebar.
 
-| Ticket | Issue | Systems | Status |
-|---|---|---|---|
-| | _None yet_ | | |
+| System | Pages |
+|---|---|
+| [Salesforce](./salesforce/index.md) | 57 |
+| [RingCentral](./ringcentral/index.md) | 3 |
+| [Phone bot](./phone-bot/index.md) | 1 |
+| [Heymarket](./heymarket/index.md) | 2 |
+| [IT](./it/index.md) | 0 |
+| [Google Workspace](./google-workspace/index.md) | 0 |
+| [Multi-system](./multi-system/index.md) | 3 |
 
-New issue? Copy `../_TEMPLATE.md` into a new folder here and add a row above.
+More pages are being added. New issue? Copy `../_TEMPLATE.md` into a new folder under the right system and add a row to that system's page.
