@@ -6,4 +6,4 @@ Google Workspace: Drive, Gmail and their links to Salesforce.
 
 | Tickets | Issue | Status |
 |---|---|---|
-| | _None yet_ | |
+| DDT-126 | [Access to the shared PI Gmail inbox and leads](./ddt-126-shared-pi-gmail-inbox-access/README.md) | Done 2026-06-09 |

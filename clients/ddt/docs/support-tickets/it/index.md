@@ -6,4 +6,4 @@ Accounts, devices, email and other IT requests.
 
 | Tickets | Issue | Status |
 |---|---|---|
-| | _None yet_ | |
+| DDT-501 | [Linear workspace access for a staff member](./ddt-501-linear-workspace-access/README.md) | Done 2026-07-27 |
